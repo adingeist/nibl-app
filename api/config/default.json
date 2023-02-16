@@ -1,0 +1,61 @@
+{
+  "aws": {
+    "s3": {
+      "name": "",
+      "region": "",
+      "accessKey": "",
+      "secretKey": "",
+      "domain": ""
+    }
+  },
+  "SMTPTransport": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "auth": {
+      "user": "",
+      "pass": ""
+    }
+  },
+  "logger": {
+    "level": "debug"
+  },
+  "db": {
+    "type": "postgres",
+    "project": "",
+    "region": "",
+    "instance": "",
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": "",
+    "database": "nibl",
+    "ssl": {
+      "ca": "",
+      "cert": "",
+      "key": ""
+    }
+  },
+  "twilio": {
+    "accountSID": "",
+    "authToken": "",
+    "sender": ""
+  },
+  "jwtPrivateKey": "",
+  "okImageTypes": ["image/jpeg", "image/png"],
+  "okVideoTypes": [
+    "video/mp4",
+    "video/mpeg",
+    "video/x-m4v",
+    "video/quicktime",
+    "video/h263",
+    "video/h264"
+  ],
+  "videoTypeExt": {
+    "video/mp4": ".mp4",
+    "video/mpeg": ".mpeg",
+    "video/x-m4v": ".m4v",
+    "video/quicktime": ".mov",
+    "video/h263": ".h263",
+    "video/h264": ".h264"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "niblet_root",
+  "version": "1.0.0",
+  "description": "Root folder for the entire Niblet app containing artwork, application, backend, and website.",
+  "main": "index.js",
+  "scripts": {
+    "sync": "bash scripts/sync_shared.sh",
+    "dev": "concurrently -n server,Niblet \"cd api && npm run dev\" \"cd Niblet && npm start\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niblet",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3",
+    "yup": "^0.32.11"
+  }
+}

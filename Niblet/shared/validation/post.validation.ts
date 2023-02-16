@@ -1,0 +1,6 @@
+export const PostValidation = {
+  MIN_HASHTAGS_LENGTH: 0,
+  MAX_HASHTAGS_LENGTH: 20,
+  MIN_CAPTION_LENGTH: 0,
+  MAX_CAPTION_LENGTH: 300,
+};

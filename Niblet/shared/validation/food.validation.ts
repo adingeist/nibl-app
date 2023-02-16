@@ -1,0 +1,7 @@
+export const FoodValidation = {
+  MIN_FOOD_NAME_LENGTH: 1,
+  MAX_FOOD_NAME_LENGTH: 30,
+
+  MIN_FOOD_BRAND_LENGTH: 1,
+  MAX_FOOD_BRAND_LENGTH: 30,
+};

@@ -1,0 +1,36 @@
+{
+  "gcp": {
+    "projectId": "NIBLET_GCP_PROJECT_ID",
+    "keyFile": "NIBLET_GCP_KEY_FILE",
+    "bucket": "NIBLET_GCP_BUCKET"
+  },
+
+  "SMTPTransport": {
+    "auth": {
+      "user": "NIBLET_EMAIL_USER",
+      "pass": "NIBLET_EMAIL_PASSWORD"
+    }
+  },
+
+  "db": {
+    "project": "NIBLET_DB_PROJECT",
+    "region": "NIBLET_DB_REGION",
+    "instance": "NIBLET_DB_INSTANCE",
+    "username": "NIBLET_DB_USERNAME",
+    "password": "NIBLET_DB_PASSWORD",
+    "host": "NIBLET_DB_HOST",
+    "ssl": {
+      "ca": "NIBLET_DB_CA",
+      "cert": "NIBLET_DB_CERT",
+      "key": "NIBLET_DB_KEY"
+    }
+  },
+
+  "twilio": {
+    "accountSID": "NIBLET_TWILIO_ACCOUNT_SID",
+    "authToken": "NIBLET_TWILIO_AUTH_TOKEN",
+    "sender": "NIBLET_TWILIO_SENDER"
+  },
+
+  "jwtPrivateKey": "NIBLET_JWT_PRIVATE_KEY"
+}

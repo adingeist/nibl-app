@@ -1,0 +1,6 @@
+# Ignore artifacts
+build
+coverage
+
+# Ignore Lottie Animations
+Niblet/src/assets/animations/

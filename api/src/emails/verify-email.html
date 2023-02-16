@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 20px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    #title-img-container {
+      width: 260px;
+      height: 78px;
+      margin: 0 auto;
+    }
+
+    #logo-img-container {
+      padding-top: 8px;
+      width: 43px;
+      height: 43px;
+      margin: 0 auto;
+    }
+
+    #wrapper {
+      padding: 10px;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+    #code-container {
+      margin: 10px 0px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    #code {
+      margin-left: 5px;
+      background-color: #f2f2f2;
+      color: black;
+      padding: 10px;
+    }
+
+    footer {
+      padding: 1%;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="title-img-container">
+        <img src="cid:title-img" alt="Nibl Title" />
+      </div>
+      <div id="logo-img-container">
+        <img src="cid:logo-img" alt="Logo" />
+      </div>
+    </header>
+
+    <div class="one-col">
+      <h2>Welcome to Nibl!</h2>
+      <p>
+        Here is your verification code to continue your registration:
+      </p>
+      <div id="code-container">
+        <h1 id="code">{{pin}}</h1>
+      </div>
+      <p>
+        Copy and paste or type the code above into the input field in the Nibl app. Note that this code will expire 15
+        minutes after it was requested.<br>
+        <br>
+      <h2>Didn't sign up for an account?</h2>
+      <p>
+        Please disregard this email. Do not forward this email or share the code above with anyone. Someone likely input
+        your email by mistake when signing up. Accounts without a verified email or phone number are deleted a few hours
+        after registration, so if you chose to sign up in the future, this email should be available.
+      </p>
+      </p>
+    </div>
+  </div>
+  <footer>
+    <p>
+      Do not reply to this email since we can't respond to messages sent to this address.
+      <br>© Nibl
+    </p>
+  </footer>
+</body>
+
+</html>
