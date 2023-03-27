@@ -1,14 +1,12 @@
-# Niblet #
+# Nibl / Niblet #
 
-The Niblet monorepo! At this level, developers can configure cross-project files like .gitignore, .prettierrc.json, and .cspell.json. Additionally, project-specific CI/CD is carried out in the .github/ directory through GitHub actions.
+## Demo Video / API & Frontend Overview
+[![Nibl demo video](https://img.youtube.com/vi/DVE5x8MeYDo/0.jpg)](https://www.youtube.com/watch?v=DVE5x8MeYDo)
+
 
 ### Locally run the app, website, and api concurrently ###
 1. Follow each sub-directory's setup guide and verify each runs correctly.
 2. Run `npm run dev`
-
-### Synchronize Projects Using the shared/ Directory ###
-* Update niblet/shared/
-* ⚠️ Run `npm run sync`. Changes made in project-scoped shared directories will be overwritten.
 
 ### Editing CI/CD Pipelines ###
 
