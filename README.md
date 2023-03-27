@@ -1,4 +1,4 @@
-# Nibl / Niblet #
+# Nibl #
 
 ## Demo Video / API & Frontend Overview
 [![Nibl demo video](https://img.youtube.com/vi/DVE5x8MeYDo/0.jpg)](https://www.youtube.com/watch?v=DVE5x8MeYDo)
